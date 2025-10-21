@@ -290,8 +290,8 @@ docker compose up -d
 
 * Документация AWS: EC2, IAM, Budgets, CloudWatch
 * Задания из лабораторной работы (в качестве методички)
-* ![Nginx: официальная документация по конфигурации](https://nginx.org/en/docs/)
-* ![Docker & Compose: официальная документация](https://docs.docker.com/compose/)
+* [Nginx: официальная документация по конфигурации](https://nginx.org/en/docs/)
+* [Docker & Compose: официальная документация](https://docs.docker.com/compose/)
 
 ---
 
