@@ -391,7 +391,12 @@ ssh-agent -k
 ![image](https://i.imgur.com/Xn4KGYS.png)
 ![image](https://i.imgur.com/8UirDSo.png)
 
-## 6. Вывод
+## 6. Использованные источники
+
+* Материалы лабораторной работы (как методичка для: Amazon VPC, Subnets, Route Tables, Internet Gateway, NAT Gateway, Security Groups, EC2, User Data (cloud-init))
+* MySQL/MariaDB — базовые команды администрирования
+
+## 7. Вывод
 
 В данной лабораторной работе была построена VPC `student-vpc-k18` с двумя подсетями: публичной `10.18.1.0/24` и приватной `10.18.2.0/24`. Настроены IGW, NAT Gateway с EIP, отдельные RT для каждой подсети. Созданы SG с минимально необходимыми правилами. Развёрнуты три EC2‑инстанса: `web-server` (HTTP/80 доступен извне), `db-server` (приватный, доступен по MySQL/3306 с web и bastion), `bastion-host` (SSH‑шлюз). Проверена связность, доступность Интернета из приватной подсети через NAT и админ‑доступ через bastion. Ресурсы корректно финализированы для исключения затрат.
 
