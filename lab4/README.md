@@ -64,7 +64,7 @@
 
 **Контрольные вопросы:**
 
-> **1. Чем отличаются два способа управления доступом к бакетам в S3?`**
+> **1. Чем отличаются два способа управления доступом к бакетам в S3?**
 > 
 > **Ответ:** В S3 есть два подхода: **ACL (Access Control Lists)** и **IAM/Bucket Policy**.
 **ACL** управляют доступом на уровне отдельных объектов, но считаются устаревшими.
@@ -323,4 +323,4 @@
 
 * [Amazon Simple Storage Service Documentation](https://docs.aws.amazon.com/s3/)
 * [AWS CLI Command Reference](https://docs.aws.amazon.com/cli/latest/reference/s3/)
-* Методические материалы лабораторной работы №4 из Moodle и GitHub.
+* Методические материалы лабораторной работы №4 из Moodle и GitHub. 
