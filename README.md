@@ -8,6 +8,7 @@
 | 2 | [Введение в AWS. Вычислительные сервисы.](./lab2/README.md)    | `lab2` | Создание и настройка EC2, IAM, Budget, мониторинг                                                                |
 | 3 | [Облачные сети (VPC, IGW, NAT, RT, SG, EC2)](./lab3/README.md) | `lab3` | Создание виртуальной сети, подсетей и шлюзов                                                                     |
 | 4 | [Облачное хранилище данных. Amazon S3.](./lab4/README.md)      | `lab4` | Создание объектного облачного хранилища Amazon S3 с настройкой доступа, версионирования и статического хостинга. |
+| 5 | [Облачные базы данных. Amazon RDS.](./lab5/README.md)          | `lab5` | Создание и изучение облачных сервисов баз данных Amazon Web Services                                |
 
 ---
 
@@ -23,6 +24,7 @@
 
 ```
 ├── README.md
+├── .gitignore
 │ 
 ├── lab1/
 │   ├── README.md
@@ -45,6 +47,11 @@
 │       │   ├── user1.png
 │       │   └── user2.png
 │       └── content/logo.png
+│
+├── lab5/
+│   ├── README.md
+│   ├── .gitignore
+│   └── lab5-red-terraform
 └── ...
 ```
 
